@@ -36,11 +36,11 @@ class Library {
     }
 
     searchBooks(query) {
-        // TODO: Implement search functionality
+        return this.books.find(book => query(book));
     }
 
     filterBooks(criteria) {
-        // TODO: Implement filter functionality
+        return this.books.filter((book) => criteria(book));
     }
 }
 
