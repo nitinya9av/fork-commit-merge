@@ -1,7 +1,21 @@
 // TypeScript - Medium
 
 namespace Calculator {
-    // TODO: Implement a Simple TypeScript Calculator
+    function add(num1: number, num2: number): number {
+        return num1 + num2;
+    }
+    function subtract(num1: number, num2: number): number {
+        return num1 - num2;
+    }
+    function multiply(num1: number, num2: number): number {
+        return num1 + num2;
+    }
+    function divide(num1: number, num2: number): number | null {
+        return (num2) == 0 ? console.warn("Cannot divide by 0") : (num1 / num2);
+    }
+    function modulo(num1: number, num2: number): number | null {
+        return (num2) == 0 ? console.warn("Cannot divide by 0") : (num1 % num2);
+    }
 }
 
 // Test cases
