@@ -13,3 +13,4 @@ typedef struct {
  * pop last element from Stack,
  * access an element from Stack at certain index
  * find element in Stack
+ */
