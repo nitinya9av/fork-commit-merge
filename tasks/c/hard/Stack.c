@@ -8,6 +8,7 @@ typedef struct {
 } Stack;
 
 /**
+ * @BhJaipal 
  * TODO: write functions for:
  * appending and element to Stack,
  * pop last element from Stack,
